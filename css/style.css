@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Merienda', cursive; */
+}
+html {
+    -webkit-tap-highlight-color: transparent;
+    overflow-x: hidden;
+    background:#131313;
+}
+.politic {
+    width: 45px;
+    /* padding-bottom: 3em; */
+}
+::-webkit-scrollbar {
+    width: 12px;
+    background:rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+    height: 85px;
+    background: linear-gradient( #000, #c5c5c5, #f0fffa );
+    border-radius: 6px;
+}
+.container {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
